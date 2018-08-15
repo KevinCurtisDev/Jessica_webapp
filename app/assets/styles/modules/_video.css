@@ -1,0 +1,24 @@
+.video {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.youtube {
+	margin:20px auto;
+	height: 200px;
+	max-width: 800px;
+	width: 80%;
+
+	@mixin atSmall {
+		height: 300px;
+	}
+
+	@mixin atMedium {
+		height: 340px;
+	}
+
+	@mixin atLarge {
+		height: 460px;
+	}
+}

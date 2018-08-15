@@ -1,0 +1,67 @@
+.headline {
+	background-color: #fff;
+	border-bottom: 10px solid rgb(214, 156, 160, .2);
+	&__main {
+		text-align: center;
+		font-weight: 400;
+
+		@mixin atMedium {
+			font-size: 3rem;
+		}
+	}
+
+	&__sub {
+		font-size: .9rem;
+		text-align: center;
+		font-weight: 300;
+
+		@mixin atMedium {
+			font-size: 1.2rem;
+		}
+	}
+
+	&__image {
+		background-image: url("./../../assets/images/crow2.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100px;
+		height: 110px;
+		margin: 130px 40% -70px 60%;
+		opacity: .4;
+
+		@mixin atMedium {
+			opacity: .8;
+		}
+	}
+
+	&__social {
+		max-width: 350px;
+		width: 80%;
+		margin: 0 auto 100px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+
+		@mixin atMedium {
+			max-width: 450px;
+		}
+
+		&-icon {
+			height: 35px;
+			width: 35px;
+			color: #fff;
+			font-size: 20px;
+			text-align: center;
+			padding: 7px;
+			background-color: #b5434c;
+			border-radius: 5px;
+		}
+		&-icon:hover {
+			background-color: #ae3442;
+			cursor: pointer;
+		}
+	}
+
+}
+

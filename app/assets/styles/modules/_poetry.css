@@ -1,0 +1,19 @@
+.poetry {
+	max-width: 500px;
+	min-height: 300px;
+	padding: 20px;
+	margin: 40px auto 0;
+	background-color: #f2e9e8;
+	display: flex;
+	flex-direction: column;
+	&__text-center {
+		text-align: center;
+	}
+	&__text-right {
+		text-align: right;
+	}
+	&__text__block-right {
+		justify-self: left;
+	}
+
+}

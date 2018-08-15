@@ -1,0 +1,8 @@
+.events {
+	background-color: $secondary;
+	color: #fff;
+	height: 200px;
+	width: 100%;
+	padding: 10px;
+	font-weight: 300;
+}

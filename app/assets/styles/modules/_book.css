@@ -1,0 +1,36 @@
+.book {
+	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 20px;
+	&__heading {
+		text-align: center;
+		font-weight: 300;
+	}
+	&__review-wrapper {
+		display: flex;
+		flex-direction: column;
+		padding: 0 20px;
+		max-width: 1000px;
+		margin: 0 auto 20px;
+		line-height: 1.5;
+	}
+	&__image {
+		width: 300px;
+		height: 450px;
+		border: 8px solid rgb(109, 96, 97, .1);
+		margin: 40px auto;
+	}
+
+	@mixin atMedium {
+		flex-direction: row;
+		&__review-wrapper {
+			max-width: 400px;
+		}
+		&__image {
+			margin: 80px auto;
+		}
+	}
+}

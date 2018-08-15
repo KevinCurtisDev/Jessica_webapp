@@ -1,0 +1,28 @@
+.btn {
+	margin: 20px auto;
+	width: 200px;
+	padding: 10px;
+	background-color: $primary-dark;
+	border: none;
+	color: #fff;
+
+	&__link {
+		margin: 20px auto;
+	}
+
+	&:hover {
+		cursor: pointer;
+		background-color: $primary-light;
+	}
+}
+
+.intro__btn {
+	margin: 20px calc(50% - 100px) 0;
+	width: 200px;
+	padding: 10px;
+	color: #fff;
+	border: 3px solid #fff;
+	background-color: $secondary;
+	cursor: pointer;
+
+}
