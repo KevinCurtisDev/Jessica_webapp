@@ -18,3 +18,17 @@ img {
 	font-weight: 400;
 }
 
+.heading2left {
+	text-align: left;
+	font-weight: 300;
+}
+
+.heading2centre {
+	text-align: center;
+	font-weight: 400;
+}
+
+.heading3left {
+	text-align: left;
+	font-weight: 400;
+}

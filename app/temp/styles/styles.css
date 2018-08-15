@@ -441,6 +441,21 @@ img {
 	font-weight: 400;
 }
 
+.heading2left {
+	text-align: left;
+	font-weight: 300;
+}
+
+.heading2centre {
+	text-align: center;
+	font-weight: 400;
+}
+
+.heading3left {
+	text-align: left;
+	font-weight: 400;
+}
+
 .btn {
 	margin: 20px auto;
 	width: 200px;
@@ -957,4 +972,11 @@ textarea {
   max-width: 800px;
   margin: 40px auto;
   padding: 0 20px;
+}
+
+.mentorship__testimonials {
+  max-width: 650px;
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin: 0 auto;
 }
