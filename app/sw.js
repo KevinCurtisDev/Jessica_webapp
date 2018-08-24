@@ -11,12 +11,14 @@ self.addEventListener('install', (event) => {
     './mentorship.html',
     './about.html',
     './poetry.html',
+    './videos.html',
     './assets/images/icon-48px.png',
     './assets/images/icon-96px.png',
     './assets/images/icon-192px.png',
     './assets/images/icon-512px.png',
     './assets/images/book_cover.png',
     './assets/images/jess.jpg',
+    './assets/images/jessHeadShot3.jpg',
     './assets/images/crow2.png',
     './favicon-16x16.png',
     './ms-icon-144x144.png',
@@ -31,7 +33,7 @@ self.addEventListener('install', (event) => {
     './apple-icon-76x76.png',
     './apple-icon-72x72.png',
     './apple-icon-60x60.png',
-    '/apple-icon-57x57.png'
+    './apple-icon-57x57.png'
   ];
 
   self.addEventListener('install', (event) => {
