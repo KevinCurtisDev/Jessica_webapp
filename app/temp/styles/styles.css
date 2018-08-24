@@ -933,12 +933,18 @@ textarea {
 	min-height: 300px;
 	padding: 20px;
 	margin: 40px auto 0;
-	background-color: #f2e9e8;
+	background-color: #6e5f5a;
+	color: #fff;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-direction: column;
 	    flex-direction: column;
+	box-shadow: 1px 2px 5px black;
 
+}
+
+.poetry__b-margin {
+  margin-bottom: 40px;
 }
 
 .poetry__text-center {
@@ -949,7 +955,7 @@ textarea {
   text-align: right;
 }
 
-.poetry__text__block-right {
+.poetry__text-block-right {
   justify-self: left;
 }
 

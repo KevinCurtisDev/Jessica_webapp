@@ -3,16 +3,25 @@
 	min-height: 300px;
 	padding: 20px;
 	margin: 40px auto 0;
-	background-color: #f2e9e8;
+	background-color: $secondary;
+	color: #fff;
 	display: flex;
 	flex-direction: column;
+	box-shadow: 1px 2px 5px black;
+
+	&__b-margin {
+		margin-bottom: 40px;
+	}
+
 	&__text-center {
 		text-align: center;
 	}
+
 	&__text-right {
 		text-align: right;
 	}
-	&__text__block-right {
+
+	&__text-block-right {
 		justify-self: left;
 	}
 
