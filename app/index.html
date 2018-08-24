@@ -29,9 +29,11 @@
 </head>
 
 <body>
-
+  <!--Beginning of navigation section-->
   <div class="nav-bar">
     <a href="index.html" class="nav-bar-brand"><h1>JT</h1></a>
+    <!--Skip to main content for screen readers-->
+    <a href="#intro" class="skip-to-main">skip to main content</a>
   </div>
     <div class="navigation">
       <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
@@ -50,8 +52,9 @@
         </ul>
       </nav>
     </div>
+    <!--End of navigation section-->
 
-
+    <!-- Beginning of header section -->
     <div class="headline__image"></div>
     <header class="headline">
       <h1 class="headline__main">Jessica Traynor</h1>
@@ -71,17 +74,18 @@
         </a>
       </section>
     </header>
+    <!-- End of header section -->
 
 
     <!-- Intro text section (including image on medium and large screens) -->
     <div class="intro__wrapper">
-      <section class="intro">
+      <section class="intro" id="intro">
 
           <!--Intro image block-->
           <img src="assets/images/jess.jpg" alt="Profile image of Jessica Traynor" class="intro__image">
           <!--Intro text block-->
           <div class="intro__text">
-            <h2 class="heading">Welcome</h2>
+            <h2 class="heading" tabindex="0">Welcome</h2>
             <p>Hi, and welcome to my website.</p>
             <p>
               I'm Jessica, author of "Liffey Swim" - my debut collection of poems, and 
@@ -97,11 +101,13 @@
           </div>
       </section>
     </div>
+    <!-- End of intro text -->
 
+    <!-- Book section displaying latest book release -->
     <section class="book">
       <img class="book__image" src="assets/images/book_cover.png" alt="Book cover">
       <div class="book__review-wrapper">
-        <h2 class="book__heading">The Quick</h2>
+        <h2 class="book__heading" tabindex="0">The Quick</h2>
         <p class="book__review">
            <q>Visionary, luminous and haunted,
             Jessica Traynor’s poems are home to a
@@ -120,17 +126,21 @@
         <a href="books.html" class="btn__link"><button class="btn">BROWSE BOOKS</button></a>
       </div>
     </section>
+    <!-- End of book section -->
 
+    <!-- Events section -->
     <section class="events">
-      <h2 class="events__heading">Upcoming Events</h2>
+      <h2 class="events__heading" tabindex="0">Upcoming Events</h2>
     </section>
     <section class="video">
       <iframe title="youtube video about Jessica Traynor" class="youtube" src="https://www.youtube.com/embed/-rSnkDK8ETI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       <a href="videos.html" class="btn__link"><button class="btn">SEE MORE VIDEOS</button></a>
     </section>
+    <!-- End of events section -->
   
+    <!-- Contact section - backend functionality to be added -->
     <section class="contact" id="contact">
-      <h2 class="contact__heading">Want to get in touch?</h2>
+      <h2 class="contact__heading" tabindex="0">Want to get in touch?</h2>
       <p class="contact__sub">Use the form to send me a message</p>
       <form>
         <input type="text" placeholder="Enter your name" id="name" aria-label="Enter your name" required>
@@ -139,8 +149,9 @@
         <button class="btn">SEND MESSAGE</button>
       </form>
     </section>
+    <!-- End of contact section -->
   
-    
+  <!-- Footer section -->
   <footer class="footer">
     <p class="footer__text">&copy; Jessica Traynor 2018</p>
     <div class="sub-footer"><p>Website designed and built by Kevin Curtis Imagery &copy;Denise Nestor</p></div>

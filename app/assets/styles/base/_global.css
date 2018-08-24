@@ -13,6 +13,11 @@ img {
 	height: auto;
 }
 
+.skip-to-main {
+	margin-left: -900px;
+	height: 0;
+}
+
 .heading {
 	text-align: center;
 	font-weight: 400;

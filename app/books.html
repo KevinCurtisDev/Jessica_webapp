@@ -16,9 +16,12 @@
 
 <body>
   
-    <div class="nav-bar">
-      <a href="index.html" class="nav-bar-brand"><h1>JT</h1></a>
-    </div>
+    <!--Beginning of navigation section-->
+  <div class="nav-bar">
+    <a href="index.html" class="nav-bar-brand"><h1>JT</h1></a>
+    <!--Skip to main content for screen readers-->
+    <a href="#main-content" class="skip-to-main">skip to main content</a>
+  </div>
     <div class="navigation">
       <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
       <label for="navi-toggle" class="navigation__button">
@@ -36,70 +39,72 @@
         </ul>
       </nav>
     </div>
+    <!--End of navigation section-->
     
-    <div class="headline__image"></div>
-    <header class="headline">
-      <h1 class="headline__main">Jessica Traynor</h1>
-      <h2 class="headline__sub">Poet | Creative Writing Teacher | Dramaturg</h2>
-      <section class="headline__social">
-        <a href="https://www.facebook.com/" target="_blank">
-          <i class="fa fa-facebook headline__social-icon" aria-label="facebook"></i>
-        </a>
-        <a href="https://twitter.com/" target="_blank">
-          <i class="fa fa-twitter headline__social-icon" aria-label="twitter"></i>
-        </a>
-        <a href="https://www.linkedin.com/" target="_blank">
-          <i class="fa fa-linkedin headline__social-icon" aria-label="linkedin"></i>
-        </a>
-        <a href="https://plus.google.com/discover" target="_blank">
-          <i class="fa fa-google-plus headline__social-icon" aria-label='google plus'></i>
-        </a>
+    <main id="main-content">
+      <div class="headline__image"></div>
+      <header class="headline">
+        <h1 class="headline__main">Jessica Traynor</h1>
+        <h2 class="headline__sub">Poet | Creative Writing Teacher | Dramaturg</h2>
+        <section class="headline__social">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa fa-facebook headline__social-icon" aria-label="facebook"></i>
+          </a>
+          <a href="https://twitter.com/" target="_blank">
+            <i class="fa fa-twitter headline__social-icon" aria-label="twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank">
+            <i class="fa fa-linkedin headline__social-icon" aria-label="linkedin"></i>
+          </a>
+          <a href="https://plus.google.com/discover" target="_blank">
+            <i class="fa fa-google-plus headline__social-icon" aria-label='google plus'></i>
+          </a>
+        </section>
+      </header>
+
+
+      <section class="book">
+        <img class="book__image" src="assets/images/book_cover.png" alt="Book cover">
+        <div class="book__review-wrapper">
+          <h2 class="book__heading" tabindex="0">The Quick</h2>
+          <p class="book__review">
+              “Visionary, luminous and haunted,
+              Jessica Traynor’s poems are home to a
+              host of compelling characters: witches,
+              changelings, the spirit of Hildegard
+              of Bingen. In ‘The Quick’, even the
+              grotesque is rendered with subtle
+              delicacy – a woman whose ‘lungs fold
+              like an origami bird’. These poems will
+              give you goose-bumps.”
+              — Helen Mort
+          </p>
+          <p class="book__review">
+            "These are poems of such formal ease and control that it is hard to believe this is only Jessica Traynor’s second collection.  Her marriage of form and material is accomplished, intelligent and right.  This is a poet with a clear, strong voice, convinced of the agency of language and ‘The Quick’ contains many fine poems that sparkle like quicksilver with their own glancing light." - Mary O'Malley
+          </p>
+          <a href="https://dedaluspress.com/authors/traynor-jessica/"  target="_blank" class="btn__link"><button class="btn">COMING SOON</button></a>
+        </div>
       </section>
-    </header>
+      
+      <hr>
 
-
-    <section class="book">
-      <img class="book__image" src="assets/images/book_cover.png" alt="Book cover">
-      <div class="book__review-wrapper">
-        <h2 class="book__heading">The Quick</h2>
-        <p class="book__review">
-            “Visionary, luminous and haunted,
-            Jessica Traynor’s poems are home to a
-            host of compelling characters: witches,
-            changelings, the spirit of Hildegard
-            of Bingen. In ‘The Quick’, even the
-            grotesque is rendered with subtle
-            delicacy – a woman whose ‘lungs fold
-            like an origami bird’. These poems will
-            give you goose-bumps.”
-            — Helen Mort
-        </p>
-        <p class="book__review">
-          "These are poems of such formal ease and control that it is hard to believe this is only Jessica Traynor’s second collection.  Her marriage of form and material is accomplished, intelligent and right.  This is a poet with a clear, strong voice, convinced of the agency of language and ‘The Quick’ contains many fine poems that sparkle like quicksilver with their own glancing light." - Mary O'Malley
-        </p>
-        <a href="https://dedaluspress.com/authors/traynor-jessica/"  target="_blank" class="btn__link"><button class="btn">COMING SOON</button></a>
-      </div>
-    </section>
-    
-    <hr>
-
-    <section class="book">
-      <img class="book__image" src="assets/images/liffey-swim.jpg" alt="Book cover">
-      <div class="book__review-wrapper">
-        <h2 class="book__heading">Liffey Swim</h2>
-        <p class="book__review">
-            "Traynor is a poet to keep reading and listening to. Her language is fresh, erudite and engaging. Her writing future is sure to be a bright one." - Libby Harte, Cordite Review
-        </p>
-        <p class="book__review">
-          “Her finely lyrical work is informed by
-            wide travel, a meditative intelligence
-            and an acute sense of history ...”
-            — Harry Clifton
-        </p>
-        <a href="https://dedaluspress.com/authors/traynor-jessica/"  target="_blank" class="btn__link"><button class="btn">BUY THIS BOOK</button></a> 
-      </div>
-    </section>
-
+      <section class="book">
+        <img class="book__image" src="assets/images/liffey-swim.jpg" alt="Book cover">
+        <div class="book__review-wrapper">
+          <h2 class="book__heading" tabindex="0">Liffey Swim</h2>
+          <p class="book__review">
+              "Traynor is a poet to keep reading and listening to. Her language is fresh, erudite and engaging. Her writing future is sure to be a bright one." - Libby Harte, Cordite Review
+          </p>
+          <p class="book__review">
+            “Her finely lyrical work is informed by
+              wide travel, a meditative intelligence
+              and an acute sense of history ...”
+              — Harry Clifton
+          </p>
+          <a href="https://dedaluspress.com/authors/traynor-jessica/"  target="_blank" class="btn__link"><button class="btn">BUY THIS BOOK</button></a> 
+        </div>
+      </section>
+    </main>
     <footer class="footer">
       <p class="footer__text">&copy; Jessica Traynor 2018</p>
       <div class="sub-footer"><p>Website designed and built by Kevin Curtis Imagery &copy;Denise Nestor</p></div>
