@@ -1,8 +1,19 @@
 .mentorship {
-	&__testimonials {
-		max-width: 650px;
+	&__text {
+		max-width: 700px;
 		font-size: 1.1rem;
 		font-weight: 300;
-		margin: 0 auto;
+		margin: 0 auto 40px;
+		padding: 0 20px;
+
+		@mixin atMedium {
+			padding: 0;
+		}
+	}
+	
+	&__image {
+		margin-top: 20px;
+		width: 100%;
+		height: auto;
 	}
 }

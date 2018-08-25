@@ -13,6 +13,11 @@ img {
 	height: auto;
 }
 
+ul,li {
+	padding: 0;
+	margin: 7px;
+}
+
 .skip-to-main {
 	margin-left: -900px;
 	height: 0;
@@ -37,3 +42,11 @@ img {
 	text-align: left;
 	font-weight: 400;
 }
+
+
+
+
+
+
+
+

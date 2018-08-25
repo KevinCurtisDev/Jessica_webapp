@@ -6,6 +6,10 @@
 	border: none;
 	color: #fff;
 
+	&-center {
+		margin: 0 calc(50% - 100px) 0;
+	}
+
 	&__link {
 		margin: 20px auto;
 	}
@@ -25,4 +29,28 @@
 	background-color: $secondary;
 	cursor: pointer;
 
+	&-left {
+		margin: 20px 0;
+		padding: 10px;
+		color: #fff;
+		border: 3px solid #fff;
+		background-color: $secondary;
+		cursor: pointer;
+	}
 }
+
+.events__btn {
+	margin: 20px calc(50% - 100px) 0;
+	width: 200px;
+	padding: 10px;
+	color: #fff;
+	border: 3px solid #fff;
+	background-color: $secondary;
+	cursor: pointer;
+
+	@mixin atSmall {
+		margin: 20px 0;
+	}
+}
+
+

@@ -436,6 +436,11 @@ img {
 	height: auto;
 }
 
+ul,li {
+	padding: 0;
+	margin: 7px;
+}
+
 .skip-to-main {
 	margin-left: -900px;
 	height: 0;
@@ -470,6 +475,10 @@ img {
 	color: #fff;
 }
 
+.btn-center {
+  margin: 0 calc(50% - 100px) 0;
+}
+
 .btn__link {
   margin: 20px auto;
 }
@@ -487,7 +496,32 @@ img {
 	border: 3px solid #fff;
 	background-color: #6e5f5a;
 	cursor: pointer;
+}
 
+.intro__btn-left {
+  margin: 20px 0;
+  padding: 10px;
+  color: #fff;
+  border: 3px solid #fff;
+  background-color: #6e5f5a;
+  cursor: pointer;
+}
+
+.events__btn {
+	margin: 20px calc(50% - 100px) 0;
+	width: 200px;
+	padding: 10px;
+	color: #fff;
+	border: 3px solid #fff;
+	background-color: #6e5f5a;
+	cursor: pointer;
+}
+
+@media (min-width: 530px) {
+
+  .events__btn {
+    margin: 20px 0;
+  }
 }
 
 .headline {
@@ -835,14 +869,62 @@ textarea {
 .events {
 	background-color: #6e5f5a;
 	color: #fff;
-	height: 200px;
+	min-height: 200px;
 	width: 100%;
-	padding: 10px;
-	font-weight: 300;
+	padding-top: 20px;
+
+}
+
+.events__inner {
+  max-width: 700px;
+  padding: 10px;
+  font-weight: 300;
+  margin:0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+@media (min-width: 530px) {
+
+  .events__inner {
+    -ms-flex-direction: row;
+        flex-direction: row;
+  }
+}
+
+.events__inner__description {
+  width: 100%;
+}
+
+@media (min-width: 530px) {
+
+  .events__inner__description {
+    width: 50%;
+  }
+}
+
+.events__inner__details {
+  width: 100%;
+}
+
+@media (min-width: 530px) {
+
+  .events__inner__details {
+    width: 40%;
+    padding: 15px 0 0 10%;
+  }
 }
 
 .events__heading {
   font-size: 1.5rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+.events__sub {
+  font-size: 1.2rem;
   text-align: center;
   font-weight: 300;
 }
@@ -964,6 +1046,13 @@ textarea {
   justify-self: left;
 }
 
+.poetry__image {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
 .footer {
 	height: 100px;
 	width: 100%;
@@ -1077,9 +1166,23 @@ textarea {
   }
 }
 
-.mentorship__testimonials {
-  max-width: 650px;
+.mentorship__text {
+  max-width: 700px;
   font-size: 1.1rem;
   font-weight: 300;
-  margin: 0 auto;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+
+@media (min-width: 800px) {
+
+  .mentorship__text {
+    padding: 0;
+  }
+}
+
+.mentorship__image {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
 }

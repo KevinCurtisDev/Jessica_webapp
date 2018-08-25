@@ -1,14 +1,50 @@
 .events {
 	background-color: $secondary;
 	color: #fff;
-	height: 200px;
+	min-height: 200px;
 	width: 100%;
-	padding: 10px;
-	font-weight: 300;
+	padding-top: 20px; 
+
+	&__inner {
+		max-width: 700px;
+		padding: 10px;
+		font-weight: 300;
+		margin:0 auto;
+		display: flex;
+		flex-direction: column;
+
+		@mixin atSmall {
+			flex-direction: row;
+		}
+
+		&__description {
+			width: 100%;
+
+			@mixin atSmall {
+				width: 50%;
+			}
+		}
+
+		&__details {
+			width: 100%;
+
+			@mixin atSmall {
+				width: 40%;
+				padding: 15px 0 0 10%;
+			}
+		}
+	}
 
 	&__heading {
 		font-size: 1.5rem;
 		text-align: center;
 		font-weight: 300;
 	}
+
+	&__sub {
+		font-size: 1.2rem;
+		text-align: center;
+		font-weight: 300;
+	}
+
 }
