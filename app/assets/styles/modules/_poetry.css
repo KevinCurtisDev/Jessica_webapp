@@ -2,16 +2,13 @@
 	max-width: 500px;
 	min-height: 300px;
 	padding: 20px;
-	margin: 40px auto 0;
+	margin: 10px auto;
 	background-color: $secondary;
 	color: #fff;
 	display: flex;
 	flex-direction: column;
-	box-shadow: 1px 2px 5px black;
+	box-shadow: 3px 3px 20px black;
 
-	&__b-margin {
-		margin-bottom: 40px;
-	}
 
 	&__text-center {
 		text-align: center;
@@ -25,11 +22,12 @@
 		justify-self: left;
 	}
 
-	&__image {
-		margin: 20px auto;
-		width: 100%;
-		max-width: 500px;
-		height: auto;
+	&__main-content-container {
+		background: linear-gradient(to right bottom, rgb(261, 213, 111, 0.2), #331a00), url("./../../assets/images/poetry.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: right;
+		padding: 40px;
 	}
 
 }

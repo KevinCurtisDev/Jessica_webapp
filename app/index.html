@@ -168,11 +168,12 @@
     <section class="contact" id="contact">
       <h2 class="contact__heading" tabindex="0">Want to get in touch?</h2>
       <p class="contact__sub">Use the form to send me a message</p>
-      <form>
-        <input type="text" placeholder="Enter your name" id="name" aria-label="Enter your name" required>
-        <input type="email" placeholder="Enter your email" id="email" aria-label="Enter your email" required>
-        <textarea cols="30" rows="10" placeholder="Enter your message" id="Message" aria-label="Enter your message" required></textarea>
-        <button class="btn">SEND MESSAGE</button>
+      <form id="contact-form" method="post">
+        <input type="hidden" name="contact_number">
+        <input type="text" placeholder="Enter your name" id="name"  name="from_name" aria-label="Enter your name" required>
+        <input type="email" placeholder="Enter your email" id="email" name="reply_to" aria-label="Enter your email" required>
+        <textarea cols="30" rows="10" placeholder="Enter your message" name="message" id="Message" aria-label="Enter your message" required></textarea>
+        <input type="submit" class="btn"  value="SEND MESSAGE">
       </form>
     </section>
     <!-- End of contact section -->

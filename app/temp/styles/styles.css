@@ -1019,19 +1019,15 @@ textarea {
 	max-width: 500px;
 	min-height: 300px;
 	padding: 20px;
-	margin: 40px auto 0;
+	margin: 10px auto;
 	background-color: #6e5f5a;
 	color: #fff;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-direction: column;
 	    flex-direction: column;
-	box-shadow: 1px 2px 5px black;
+	box-shadow: 3px 3px 20px black;
 
-}
-
-.poetry__b-margin {
-  margin-bottom: 40px;
 }
 
 .poetry__text-center {
@@ -1046,11 +1042,12 @@ textarea {
   justify-self: left;
 }
 
-.poetry__image {
-  margin: 20px auto;
-  width: 100%;
-  max-width: 500px;
-  height: auto;
+.poetry__main-content-container {
+  background: linear-gradient(to right bottom, rgb(261, 213, 111, 0.2), #331a00), url("./../../assets/images/poetry.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 40px;
 }
 
 .footer {
