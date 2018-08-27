@@ -1,6 +1,6 @@
 # Jess_site (Project 1 for Code Institute)
 
-![responsive layout of web app](./assets/images/responsive-design.png)
+![responsive layout of web app](https://the-masta-blasta.github.io/Jess_site/app/assets/images/responsive-design.png)
 
 
 This project, the first of the code institute bootcamp projects, is a progressive web app that I've built for the award winning Irish poet, Jessica Traynor – to showcase her latest Poetry, Book releases, videos, and blog posts. The web app has been optimised for performance, accessibility and offline access.
