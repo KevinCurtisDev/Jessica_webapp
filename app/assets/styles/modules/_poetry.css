@@ -1,5 +1,5 @@
 .poetry {
-	max-width: 500px;
+	max-width: 600px;
 	min-height: 300px;
 	padding: 20px;
 	margin: 10px auto;
@@ -7,7 +7,7 @@
 	color: #fff;
 	display: flex;
 	flex-direction: column;
-	box-shadow: 3px 3px 20px black;
+	box-shadow: 3px 3px 10px black;
 
 
 	&__text-center {
@@ -23,11 +23,17 @@
 	}
 
 	&__main-content-container {
-		background: linear-gradient(to right bottom, rgb(261, 213, 111, 0.2), #331a00), url("./../../assets/images/poetry.jpg");
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: right;
-		padding: 40px;
+		padding: 20px 0;
+	}
+
+	&__image-container {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	&__image {
+		width: 100%;
+		height: auto;
 	}
 
 }

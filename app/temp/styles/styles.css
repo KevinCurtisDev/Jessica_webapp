@@ -1016,7 +1016,7 @@ textarea {
 }
 
 .poetry {
-	max-width: 500px;
+	max-width: 600px;
 	min-height: 300px;
 	padding: 20px;
 	margin: 10px auto;
@@ -1026,7 +1026,7 @@ textarea {
 	display: flex;
 	-ms-flex-direction: column;
 	    flex-direction: column;
-	box-shadow: 3px 3px 20px black;
+	box-shadow: 3px 3px 10px black;
 
 }
 
@@ -1043,11 +1043,17 @@ textarea {
 }
 
 .poetry__main-content-container {
-  background: linear-gradient(to right bottom, rgb(261, 213, 111, 0.2), #331a00), url("./../../assets/images/poetry.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right;
-  padding: 40px;
+  padding: 20px 0;
+}
+
+.poetry__image-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.poetry__image {
+  width: 100%;
+  height: auto;
 }
 
 .footer {
@@ -1106,14 +1112,7 @@ textarea {
 .about h2 {
   font-family: 'Great Vibes', cursive;
   font-weight: 300;
-  font-size: 2rem;
-}
-
-@media (min-width: 800px) {
-
-  .about h2 {
-    font-size: 3rem;
-  }
+  font-size: 2.5em;
 }
 
 .about__image {
@@ -1132,7 +1131,7 @@ textarea {
 
 .about__text {
   max-width: 800px;
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 0 20px;
   width: 100%;
 }
@@ -1140,7 +1139,6 @@ textarea {
 @media (min-width: 800px) {
 
   .about__text {
-    margin: 60px auto;
     width: 45%;
     height: 40%;
   }
@@ -1150,7 +1148,7 @@ textarea {
   font-size: 1.1rem;
   color: #fff;
   max-width: 950px;
-  margin: -60px auto 20px;
+  margin: -30px auto 20px;
   padding: 0 40px;
   width: 100%;
 }
@@ -1159,7 +1157,6 @@ textarea {
 
   .about__text-100 {
     max-width: 1000px;
-    margin: -80px auto 20px;
   }
 }
 
