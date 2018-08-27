@@ -45,7 +45,7 @@ As a festival organiser, I want to view Jessica's work and get in touch with her
 I open the web app home page. I scroll to the information on Jessica's latest book release. I click on the button to see more books. I click the expandible menu and navigate to the Poetry section. i browse some of the poems and then open the expandable menu and navigate to the contact page. I then fill out the contact form with incorrect details and see error messages. I then repeat the process of filling in the contact form with correct details and click the send message button. No errors appear.
 
 
-View wireframes: [wireframes](https://the-masta-blasta.github.io/Jess_site/app/Jess-Wireframe.pdf) 
+View wireframes: [wireframes](https://the-masta-blasta.github.io/Jessica_webapp/app/Jess-Wireframe.pdf) 
 
 
 ### Features
@@ -112,8 +112,17 @@ Native app experience: Tested on iphone 5s, iphone 8, sony xperia, samsung 8. Th
 ## Deployment
 
 
-This site has been deployed on GitHub pages and can be viewed here: [live preview of project](https://the-masta-blasta.github.io/Jess_site/app/) 
+This site has been deployed on GitHub pages and can be viewed here: [live preview of project](https://the-masta-blasta.github.io/Jessica_webapp/app/) 
 
+## Difficulties
+
+The most challenging area in building this web app was striking a good balance between design and following what Jessica (the poet the site is designed for) wanted to display. An other challenging area was cache management when using the service worker. THis is an area of the site that still needs improvement.
+
+## Further Enhancements
+
+I would like to continue to make the web app offline friendly by integrating indexBD into the contact form, allowing users to send a message offline and later have the message delivered when their device connects to the internet.
+
+The site's load time would benefit further by inlining css for above the fold content in order to mitigate the render blocking styles during the critocal rendering path.
 
 ## Credits
 
@@ -123,7 +132,7 @@ All content was supplied by Jessica Traynor
 ## Media
 
 
-Art work and photos used in this project were obtained from Jessica Traynor and dedalus press with permission.
+Art work supplied by Denise Nestor. Photos used in this project were obtained from Jessica Traynor and dedalus press with permission.
 
 
 ## Acknowledgements
