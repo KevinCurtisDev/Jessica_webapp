@@ -34,7 +34,7 @@
           <li class="navigation__item"><a href="books.html" class="navigation__link">BOOKS</a></li>
           <li class="navigation__item"><a href="poetry.html" class="navigation__link">POETRY</a></li>
           <li class="navigation__item"><a href="mentorship.html" class="navigation__link">MENTORSHIP</a></li>
-          <li class="navigation__item"><a href="https://jessicatraynor.com" target="_blank" class="navigation__link">BLOG</a></li>
+          <li class="navigation__item"><a href="https://jessicatraynor.com" target="_blank" rel="noopener" class="navigation__link">BLOG</a></li>
           <li class="navigation__item"><a href="about.html" class="navigation__link">ABOUT</a></li>
         </ul>
       </nav>
@@ -49,30 +49,30 @@
      <h2 class="headline__sub">Poet | Creative Writing Teacher | Dramaturg</h2>
 
       <section class="headline__social">
-        <a href="https://www.facebook.com/jess.traynor.7" target="_blank"><i class="fa fa-facebook headline__social-icon" aria-label="facebook"></i></a>
-        <a href="https://twitter.com/JessicaTraynor6?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa fa-twitter headline__social-icon" aria-label="twitter"></i></a>
-        <a href="https://www.linkedin.com/in/jessica-traynor-b0718b29/" target="_blank"><i class="fa fa-linkedin headline__social-icon" aria-label="linkedin"></i></a>
-        <a href="https://plus.google.com/107465148557137473298" target="_blank"><i class="fa fa-google-plus headline__social-icon" aria-label='google plus'></i></a>
+        <a href="https://www.facebook.com/jess.traynor.7" target="_blank" rel="noopener"><i class="fa fa-facebook headline__social-icon" aria-label="facebook"></i></a>
+        <a href="https://twitter.com/JessicaTraynor6?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" rel="noopener"><i class="fa fa-twitter headline__social-icon" aria-label="twitter"></i></a>
+        <a href="https://www.linkedin.com/in/jessica-traynor-b0718b29/" target="_blank" rel="noopener"><i class="fa fa-linkedin headline__social-icon" aria-label="linkedin"></i></a>
+        <a href="https://plus.google.com/107465148557137473298" target="_blank" rel="noopener"><i class="fa fa-google-plus headline__social-icon" aria-label='google plus'></i></a>
       </section>
     </header>
-    <!-- End of header section -->
+      <!-- End of header section -->
 
     <!-- Beginning of main content section -->
     <main id="main-content">
       <section class="video">
-        <iframe title="Nimrud, read by Jessica Traynor" class="youtube" src="https://www.youtube.com/embed/mGEnHz5oBNs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe title="Nimrud, read by Jessica Traynor" class="youtube" src=" " data-src="https://www.youtube.com/embed/mGEnHz5oBNs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </section>
 
       <section class="video">
-        <iframe title="Present tense, read by Jessica Traynor" class="youtube" src="https://www.youtube.com/embed/ZYgKC7fkFmw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe title="Present tense, read by Jessica Traynor" class="youtube" src=" " data-src="https://www.youtube.com/embed/ZYgKC7fkFmw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </section>
 
       <section class="video">
-        <iframe title="The Artane Band, performed on Pantisocracy" class="youtube" src="https://player.vimeo.com/video/262237134" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe title="The Artane Band, performed on Pantisocracy" class="youtube" src=" " data-src="https://player.vimeo.com/video/262237134" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </section>
 
       <section class="video">
-        <iframe title="The Artane Band, performed on Pantisocracy" class="youtube" src="https://player.vimeo.com/video/262237134" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe title="The Artane Band, performed on Pantisocracy" class="youtube" src=" " data-src="https://player.vimeo.com/video/262237134" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </section>
     </main>
     <!-- End of main content section -->
@@ -83,5 +83,16 @@
       <div class="sub-footer"><p>Website designed and built by Kevin Curtis Imagery &copy;Denise Nestor</p></div>
     </footer>  
     <!-- End of footer section -->
+
+    <!--Inlined js for faster page load, code snippet found at https://varvy.com/pagespeed/defer-videos.html written by Patrick Sexton-->
+    <script>
+      function init() {
+      var vidDefer = document.getElementsByTagName('iframe');
+      for (var i=0; i<vidDefer.length; i++) {
+      if(vidDefer[i].getAttribute('data-src')) {
+      vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+      } } }
+      window.onload = init;
+    </script>
 </body>
 </html>
