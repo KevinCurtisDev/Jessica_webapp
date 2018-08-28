@@ -123,7 +123,7 @@ Gulp was used as the project task runner, to compress, organise and compile the 
 ## Testing
 
 
-Responsive design: responsive design was tested on google chromes webdeveloper tools. Once the site was uploaded to github pages it was also tested on a number of phones, tablets, laptop and desktop screens.
+Responsive design: responsive design was tested on google chrome webdeveloper tools. Once the site was uploaded to github pages it was also tested on a number of phones, tablets, laptop and desktop screens.
 
 
 Browser compatibility: The site was run on multiple browsers, including chrome, chrome canary, firefox, IE, opera.
@@ -135,7 +135,7 @@ Progressive: The site was run through google chrome's lighthouse audit and score
 Offline capability: Tested on an iphone 5s, iphone 8, sony xperia, samsung 8, and multiple desktops, laptops and tablets. Any page visited while online remained available offline when the site was reloaded.
 
 
-Native app experience: Tested on iphone 5s, iphone 8, sony xperia, samsung 8. The site downloaded with an app icon to each homescreen. The app launched with a splash screen displaying the app icon at the appropriate size. Once launched, the site displayed in the full size of the view window without the usual upper and lower browser bars. The top bar on each android device also changed to the color theme set, this feature didn't work for iphone models.
+Native app experience: Tested on iphone 5s, iphone 8, sony xperia, samsung 8. The site downloaded with an app icon to each homescreen. The app launched with a splash screen displaying the app icon at the appropriate size. Once launched, the site displayed in the full size of the view window without the usual upper and lower browser bars. The top bar on each android device also changed to the colour theme set, this feature didn't work for iphone models.
 
 
 ## Deployment
@@ -145,7 +145,7 @@ This site has been deployed on GitHub pages and can be viewed here: [live previe
 
 ## Difficulties
 
-The most challenging area in building this web app was striking a good balance between design and following what Jessica (the poet the site is designed for) wanted to display. An other challenging area was cache management when using the service worker. THis is an area of the site that still needs improvement.
+The most challenging area in building this web app was striking a good balance between design and following what Jessica (the poet the site is designed for) wanted to display. An other challenging area was cache management when using the service worker. This is an area of the site that still needs improvement.
 
 ## Further Enhancements
 
@@ -167,4 +167,6 @@ Art work supplied by Denise Nestor. Photos used in this project were obtained fr
 ## Acknowledgements
 
 
-I based the hamburger navigation on the navigation menu used by Jonas Schmedtmann - Advanced CSS and Sass course on Udemy.
+I based the hamburger navigation on the navigation menu used by Jonas Schmedtmann - Advanced CSS and Sass course on Udemy. 
+
+The script used to defer embedded videos is from [varvy.com](https://varvy.com/pagespeed/defer-videos.html), written by Patrick Sexton
