@@ -29,20 +29,49 @@ The site is primarily for readers, potential purchasers, and arts administrators
 
 The following user stories were used -
 
-Reader:
+#### Reader:
+
 As a reader, I want to see a list of books, blogs and current works written by Jessica, so that I can buy her books and read her latest writings and thoughts.
 
-I navigate to the home page. I scroll to the information on Jessica's latest book release. I click on the button to see more books. I decide to buy a book. I click buy this book. A new tab opens in my browser showing the publisher's order form for the book. I complete my order and decide to look for more of Jessica's work. I click the expandible menu and navigate to the Poetry section. I read some poems and save the page in my browser history for later reading.
+Actions:
 
-Arts administrator:
+* Navigate to the home page. 
+* Scroll to the information on Jessica's latest book release. 
+* Click on the button to see more books. 
+* Decide to buy a book or not. 
+* Click buy this book. A new tab opens in my browser showing the publisher's order form for the book. 
+* Complete order and decide to look for more of Jessica's work. 
+* Click the expandible menu and navigate to the Poetry section of Jessica's web app. 
+* Read some poems and save the page in the browser history for later reading.
+
+#### Arts administrator:
+
 As an Arts administrator, I want to get in touch with Jessica so that I can discuss work opportunities with her.
 
-I open the web app home page. I open the expandable menu and navigate to the contact page. I then fill out the contact form with incorrect details and see error messages. I then repeat the process of filling in the contact form with correct details and click the send message button. No errors appear.
+Actions: 
 
-Festival organiser:
+* Open the web app home page. 
+* Scroll to the contact form. 
+* Fill out the contact form with incorrect details (see error messages). 
+* Repeat the process of filling in the contact form with correct details. 
+* Click the send message button. No errors appear.
+
+#### Festival organiser:
+
 As a festival organiser, I want to view Jessica's work and get in touch with her so that I can discuss possible work opportunities with her.
 
-I open the web app home page. I scroll to the information on Jessica's latest book release. I click on the button to see more books. I click the expandible menu and navigate to the Poetry section. i browse some of the poems and then open the expandable menu and navigate to the contact page. I then fill out the contact form with incorrect details and see error messages. I then repeat the process of filling in the contact form with correct details and click the send message button. No errors appear.
+
+Action: 
+
+* Open the web app home page. 
+* Scroll to the information on Jessica's latest book release. 
+* Click on the button to see more books. 
+* Click the expandible menu and navigate to the Poetry section. 
+* Browse some of the poems.
+* Open the expandable menu and navigate to the contact page.
+* Fill out the contact form with incorrect details and see error messages. 
+* Repeat the process of filling in the contact form with correct details.
+* Click the send message button. No errors appear.
 
 
 View wireframes: [wireframes](https://the-masta-blasta.github.io/Jessica_webapp/app/Jess-Wireframe.pdf) 
