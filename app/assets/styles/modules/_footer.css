@@ -1,3 +1,7 @@
+/*
+* Footer stretches full width on bottom of page. Text remains centered at all screen sizes
+*/
+
 .footer {
 	height: 100px;
 	width: 100%;

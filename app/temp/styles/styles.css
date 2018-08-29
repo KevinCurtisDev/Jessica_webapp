@@ -466,6 +466,10 @@ ul,li {
 	font-weight: 400;
 }
 
+/*
+* Generic button style
+*/
+
 .btn {
 	margin: 20px auto;
 	width: 200px;
@@ -488,6 +492,10 @@ ul,li {
   background-color: #b5434c;
 }
 
+/*
+* Intro button style
+*/
+
 .intro__btn {
 	margin: 20px calc(50% - 100px) 0;
 	width: 200px;
@@ -506,6 +514,10 @@ ul,li {
   background-color: #6e5f5a;
   cursor: pointer;
 }
+
+/*
+* Events buton style
+*/
 
 .events__btn {
 	margin: 20px calc(50% - 100px) 0;
@@ -526,7 +538,7 @@ ul,li {
 
 .headline {
 	background-color: #fff;
-	border-bottom: 10px solid rgb(214, 156, 160, .2);
+	border-bottom: 10px solid rgb(214, 156, 160, 0.2);
 
 }
 
@@ -555,6 +567,10 @@ ul,li {
   }
 }
 
+/*
+* Position bird image above and behind author's name
+*/
+
 .headline__image {
   background-image: url("./../../assets/images/crow2.png");
   background-position: center;
@@ -572,6 +588,10 @@ ul,li {
     opacity: .8;
   }
 }
+
+/*
+* Social media icons positioned and centered below author's name
+*/
 
 .headline__social {
   max-width: 350px;
@@ -603,10 +623,18 @@ ul,li {
   border-radius: 5px;
 }
 
+/*
+* Add pointer on hover, and slightly darken icon background colour
+*/
+
 .headline__social-icon:hover {
   background-color: #ae3442;
   cursor: pointer;
 }
+
+/*
+* Styles for into section
+*/
 
 .intro {
 	color: #fff;
@@ -649,6 +677,10 @@ ul,li {
   }
 }
 
+/*
+* Display text only at lower screen sizes. Dsplay image and text side by side on larger screens
+*/
+
 .intro__image {
   display: none;
 }
@@ -675,6 +707,10 @@ ul,li {
   }
 }
 
+/*
+* Contact section generic styles
+*/
+
 .contact {
 	background-color: #6e5f5a;
 	display: -ms-flexbox;
@@ -695,6 +731,11 @@ ul,li {
   text-align: center;
   font-weight: 300;
 }
+
+/*
+* Contact form fills entire width on device on small screens. 
+* Remains centered at 600px on large screens
+*/
 
 form {
 	display: -ms-flexbox;
@@ -718,6 +759,10 @@ textarea {
 	margin: 10px 0 20px;
 }
 
+/*
+* Sticky nav bar, keeping nav-bar at top of page and allowing content to scroll under it (using z index)
+*/
+
 .nav-bar {
 	width: 100%;
 	height: 80px;
@@ -738,6 +783,10 @@ textarea {
   text-decoration: none;
   color: #fff;
 }
+
+/*
+* CSS checkbox hack used to control navigation menu state
+*/
 
 .navigation__checkbox {
   display: none;
@@ -779,6 +828,10 @@ textarea {
   transition: all .4s ease-in-out;
 }
 
+/*
+* navigation list moves in from left as navigation background expands to fill page
+*/
+
 .navigation__list {
   position: absolute;
   top: 50%;
@@ -792,6 +845,10 @@ textarea {
 .navigation__item {
   margin: .5rem;
 }
+
+/*
+* Link hover effect begins
+*/
 
 .navigation__link:link,
 		.navigation__link:visited {
@@ -812,9 +869,17 @@ textarea {
   color: #99323b;
 }
 
+/*
+* Menu background scales up to fill screen when checkbox is checked
+*/
+
 .navigation__checkbox:checked ~ .navigation__background {
   transform: scale(120);
 }
+
+/*
+* Link hover effect ends
+*/
 
 .navigation__checkbox:checked ~ .navigation__nav {
   opacity: 1;
@@ -856,6 +921,10 @@ textarea {
   background-color: transparent;
 }
 
+/*
+* Hamburger menu animation
+*/
+
 .navigation__checkbox:checked + .navigation__button .navigation__icon::before {
   top: 0;
   transform: rotate(45deg);
@@ -865,6 +934,10 @@ textarea {
   top: 0;
   transform: rotate(-45deg);
 }
+
+/*
+* Events section styles
+*/
 
 .events {
 	background-color: #6e5f5a;
@@ -929,6 +1002,10 @@ textarea {
   font-weight: 300;
 }
 
+/*
+* Video page styles
+*/
+
 .video {
 	width: 100%;
 	display: -ms-flexbox;
@@ -936,6 +1013,10 @@ textarea {
 	-ms-flex-direction: column;
 	    flex-direction: column;
 }
+
+/*
+* Adjust video display height and width relative to screen size
+*/
 
 .youtube {
 	margin:20px auto;
@@ -964,6 +1045,10 @@ textarea {
     height: 460px;
   }
 }
+
+/*
+* wrapper for the book and and book reviews
+*/
 
 .book {
 	padding-top: 40px;
@@ -995,9 +1080,13 @@ textarea {
 .book__image {
   width: 300px;
   height: 450px;
-  border: 8px solid rgb(109, 96, 97, .1);
+  border: 8px solid rgb(109, 96, 97, 0.1);
   margin: 40px auto;
 }
+
+/*
+* On larger screens move book and reviews into two columns
+*/
 
 @media (min-width: 800px) {
 
@@ -1055,6 +1144,10 @@ textarea {
   width: 100%;
   height: auto;
 }
+
+/*
+* Footer stretches full width on bottom of page. Text remains centered at all screen sizes
+*/
 
 .footer {
 	height: 100px;
@@ -1115,6 +1208,10 @@ textarea {
   font-size: 2.5em;
 }
 
+/*
+* Display image on large screens / Hide image on mobile size screens
+*/
+
 .about__image {
   display: none;
 }
@@ -1159,6 +1256,10 @@ textarea {
     max-width: 1000px;
   }
 }
+
+/*
+* Mentorship section styles
+*/
 
 .mentorship__text {
   max-width: 700px;

@@ -29,6 +29,9 @@
 		font-size: 2.5em;
 	}
 
+/*
+* Display image on large screens / Hide image on mobile size screens
+*/
 	&__image {
 		display: none;
 

@@ -1,6 +1,6 @@
 .headline {
 	background-color: #fff;
-	border-bottom: 10px solid rgb(214, 156, 160, .2);
+	border-bottom: 10px solid rgb(214, 156, 160, 0.2);
 	&__main {
 		text-align: center;
 		font-weight: 400;
@@ -20,6 +20,9 @@
 		}
 	}
 
+/*
+* Position bird image above and behind author's name
+*/
 	&__image {
 		background-image: url("./../../assets/images/crow2.png");
 		background-position: center;
@@ -34,6 +37,10 @@
 			opacity: .8;
 		}
 	}
+
+/*
+* Social media icons positioned and centered below author's name
+*/
 
 	&__social {
 		max-width: 350px;
@@ -57,6 +64,10 @@
 			background-color: #b5434c;
 			border-radius: 5px;
 		}
+
+/*
+* Add pointer on hover, and slightly darken icon background colour
+*/
 		&-icon:hover {
 			background-color: #ae3442;
 			cursor: pointer;

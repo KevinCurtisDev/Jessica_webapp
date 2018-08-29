@@ -1,3 +1,7 @@
+/*
+* Sticky nav bar, keeping nav-bar at top of page and allowing content to scroll under it (using z index)
+*/
+
 .nav-bar {
 	width: 100%;
 	height: 80px;
@@ -19,6 +23,9 @@
 	}
 }
 
+/*
+* CSS checkbox hack used to control navigation menu state
+*/
 .navigation {
 	&__checkbox {
 		display: none;
@@ -60,6 +67,9 @@
 		transition: all .4s ease-in-out;
 	}
 
+/*
+* navigation list moves in from left as navigation background expands to fill page
+*/
 	&__list {
 		position: absolute;
 		top: 50%;
@@ -73,6 +83,10 @@
 	&__item {
 		margin: .5rem;
 	}
+
+/*
+* Link hover effect begins
+*/
 
 	&__link {
 		&:link,
@@ -96,6 +110,14 @@
 
 	}
 
+/*
+* Link hover effect ends
+*/
+
+
+/*
+* Menu background scales up to fill screen when checkbox is checked
+*/
 	&__checkbox:checked ~ &__background {
 		transform: scale(120);
 	}
@@ -141,6 +163,10 @@
 	&__checkbox:checked + &__button &__icon {
 		background-color: transparent;
 	}
+
+/*
+* Hamburger menu animation
+*/
 		
 	&__checkbox:checked + &__button &__icon::before {
 		top: 0;

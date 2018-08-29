@@ -1,3 +1,7 @@
+/*
+* Styles for into section
+*/
+
 .intro {
 	color: #fff;
 	width: 100%;
@@ -32,6 +36,9 @@
 		}
 	}
 
+/*
+* Display text only at lower screen sizes. Dsplay image and text side by side on larger screens
+*/
 	&__image {
 		display: none;
 

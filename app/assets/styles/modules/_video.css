@@ -1,8 +1,15 @@
+/*
+* Video page styles
+*/
 .video {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 }
+
+/*
+* Adjust video display height and width relative to screen size
+*/
 
 .youtube {
 	margin:20px auto;

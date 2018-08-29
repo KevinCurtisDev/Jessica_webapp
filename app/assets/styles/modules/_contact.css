@@ -1,3 +1,7 @@
+/*
+* Contact section generic styles
+*/
+
 .contact {
 	background-color: $secondary;
 	display: flex;
@@ -17,6 +21,10 @@
 	}
 }
 
+/*
+* Contact form fills entire width on device on small screens. 
+* Remains centered at 600px on large screens
+*/
 form {
 	display: flex;
 	flex-direction: column;

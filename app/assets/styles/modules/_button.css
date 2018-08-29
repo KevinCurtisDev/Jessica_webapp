@@ -1,3 +1,6 @@
+/*
+* Generic button style
+*/
 .btn {
 	margin: 20px auto;
 	width: 200px;
@@ -20,6 +23,10 @@
 	}
 }
 
+/*
+* Intro button style
+*/
+
 .intro__btn {
 	margin: 20px calc(50% - 100px) 0;
 	width: 200px;
@@ -38,6 +45,10 @@
 		cursor: pointer;
 	}
 }
+
+/*
+* Events buton style
+*/
 
 .events__btn {
 	margin: 20px calc(50% - 100px) 0;
