@@ -1104,6 +1104,10 @@ textarea {
   }
 }
 
+/*
+* Poetry section styles
+*/
+
 .poetry {
 	max-width: 600px;
 	min-height: 300px;
