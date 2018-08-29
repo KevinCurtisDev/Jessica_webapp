@@ -2,7 +2,6 @@
   "name": "jess_site",
   "version": "1.0.0",
   "dependencies": {
-    "lazysizes": "^2.0.0",
     "normalize.css": "^4.1.1"
   },
   "devDependencies": {
@@ -29,7 +28,6 @@
     "postcss-mixins": "^4.0.2",
     "postcss-nested": "^1.0.0",
     "postcss-simple-vars": "^1.2.0",
-    "webpack": "^1.13.1"
   },
   "main": "gulpfile.js",
   "scripts": {
