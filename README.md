@@ -141,7 +141,7 @@ Native app experience: Tested on iphone 5s, iphone 8, sony xperia, samsung 8. Th
 ## Deployment
 
 
-This site has been deployed on GitHub pages and can be viewed here: [live preview of project](https://the-masta-blasta.github.io/Jessica_webapp/app/) 
+This site has been deployed on GitHub pages and can be viewed here: [live preview of project](https://the-masta-blasta.github.io/Jessica_webapp/) 
 
 ## Difficulties
 
