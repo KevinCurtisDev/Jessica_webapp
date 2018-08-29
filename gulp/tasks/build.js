@@ -48,8 +48,7 @@ gulp.task('optimiseImages', ['deleteDocsFolder'], function() {
 gulp.task('usemin', ['deleteDocsFolder', 'styles'], function() {
 	return gulp.src("./app/**/*.html")
 		.pipe(usemin({
-			css: [function() {return rev()}, function() {return cssnano()}],
-			js: [function() {return rev()}]
+			css: [function() {return cssnano()}],
 		}))
 		.pipe(gulp.dest("./docs"));
 });

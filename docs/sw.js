@@ -4,8 +4,8 @@ self.addEventListener('install', (event) => {
     
     const urlsToCache = [
     '/',
-    './temp/styles/styles.css',
-    './js/main.js',
+    './assets/styles/styles.css',
+    './scripts/main.js',
     './index.html',
     './books.html',
     './mentorship.html',
@@ -17,9 +17,12 @@ self.addEventListener('install', (event) => {
     './assets/images/icon-192px.png',
     './assets/images/icon-512px.png',
     './assets/images/book_cover.png',
+    './assets/images/liffey-swim.jpg',
     './assets/images/jess.jpg',
     './assets/images/jessHeadShot3.jpg',
     './assets/images/crow2.png',
+    './assets/images/poetry.jpg',
+    './assets/images/mentorship.png',
     './favicon-16x16.png',
     './ms-icon-144x144.png',
     './favicon-96x96.png',
