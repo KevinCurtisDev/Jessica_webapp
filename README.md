@@ -3,7 +3,7 @@
 ![responsive layout of web app](https://github.com/The-masta-blasta/Jessica_webapp/blob/master/app/assets/images/responsive-design.png)
 
 
-This project, the first of the code institute bootcamp projects, is a progressive web app that I've built for Irish poet, Jessica Traynor – to showcase her latest Poetry, Book releases, videos, and blog posts. The web app has been optimised for performance, accessibility and offline access.
+This project is a progressive web app built for Irish poet, Jessica Traynor – to showcase her latest Poetry, Book releases, videos, and blog posts. The web app has been optimised for performance, accessibility and offline access.
 
 
 
@@ -74,7 +74,7 @@ Action:
 * Click the send message button. No errors appear.
 
 
-View wireframes: [wireframes](https://the-masta-blasta.github.io/Jessica_webapp/app/Jess-Wireframe.pdf) 
+View wireframes: [wireframes](https://github.com/KevinCurtisDev/Jessica_webapp/blob/master/app/Jess-Wireframe.pdf) 
 
 
 ### Features
@@ -141,7 +141,7 @@ Native app experience: Tested on iphone 5s, iphone 8, sony xperia, samsung 8. Th
 ## Deployment
 
 
-This site has been deployed on GitHub pages and can be viewed here: [live preview of project](https://the-masta-blasta.github.io/Jessica_webapp/) 
+This site has been deployed on GitHub pages and can be viewed here: [live preview of project](https://kevincurtisdev.github.io/Jessica_webapp/) 
 
 ## Difficulties
 
